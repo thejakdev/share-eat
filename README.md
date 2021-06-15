@@ -1,7 +1,7 @@
 ## Share eat
-Visando melhorar a experiencia do usuario, o Share eat permite ao usuario cadastrar novos pratos em seu local.
-No Share eat, voce pode ver os principais locais listados, pode ver a lista de pratos a venda de um local em especifico.
-Voce tambem pode cadastrar novos pratos.
+Visando melhorar a experiência do usuário, o Share eat permite ao usuário cadastrar novos pratos em seu local.
+No Share eat, você pode ver os principais locais listados, pode ver a lista de pratos a venda de um local em especifico.
+Você também pode cadastrar novos pratos.
 
 Veja a demo: [`Share-eat`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 
@@ -10,17 +10,17 @@ Veja a demo: [`Share-eat`](https://github.com/vercel/next.js/tree/canary/package
 Adobe XD
 <img align="left" alt="Visual Studio Code" width="46px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png" />
 <br/>
-[`Mockup Mobile`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
-[`Mockup Desktop`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+[`Mockup Mobile`](https://xd.adobe.com/spec/d1218cae-a616-4c5c-4d3f-551f8e20124d-a710/)
+[`Mockup Desktop`](https://xd.adobe.com/view/21c2c8bf-4fb6-4be1-99e7-b45f78160615-7491/)
 
 ## Rodando o Projeto
 
-Primeiramente clone o repositorio utilizando o seguinte comando:
+Primeiramente clone o repositório utilizando o seguinte comando:
 ```
 git clone https://github.com/thejakdev/share-eat.git
 ```
 <br/>
-Em seguida entre na pasta /share-eat
+Em seguida entre na pasta `/share-eat`
 
 ```
 cd share-eat
@@ -32,25 +32,25 @@ Digite o comando
 npm run build
 ```
 <br/>
-E por fim digite o comando npm run dev para rodar o projeto em modo de desenvolvimento.
+E por fim digite o comando `npm run dev` para rodar o projeto em modo de desenvolvimento.
 
 ```
 npm run dev
 ```
-<sub>Imporante! O NextJS utiliza da porta 3000 para rodar o projeto. antes de rodar o npm run dev, certifique-se que a porta 3000 esta livre.</sub>
+<sub>Importante! O NextJS utiliza da porta 3000 para rodar o projeto. antes de rodar o `npm run dev`, certifique-se que a porta 3000 esta livre.</sub>
 
 <br/>
 <br/>
 
 ## Tecnologias usadas
 
-[`NextJS`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)<br/>
-[`Styled Components`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)<br/>
-[`Material UI`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)<br/>
-[`React Hook Form`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)<br/>
-[`Axios`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+[`NextJS`](https://nextjs.org/)<br/>
+[`Styled Components`](https://styled-components.com/)<br/>
+[`Material UI`](https://material-ui.com/)<br/>
+[`React Hook Form`](https://react-hook-form.com/)<br/>
+[`Axios`](https://github.com/axios/axios)
 
-# Visao geral da estrutura do projeto
+# Visão geral da estrutura do projeto
 ### Styled Components
 A pasta [📦styled] contem todos os arquivos de estilos globais.
 
@@ -71,7 +71,7 @@ A pasta [📦styled] contem todos os arquivos de estilos globais.
  <br/>
  
  ### Servicos
- A pasta [📦services] contem todos os arquivos de chamadas a servicos de API.
+ A pasta [📦services] contem todos os arquivos de chamadas a serviços de API.
 
 📦services<br/>
  ┣ 📜Places.js<br/>
@@ -80,8 +80,8 @@ A pasta [📦styled] contem todos os arquivos de estilos globais.
  <br/>
  
  ### Paginas
- A pasta [📦pages] e uma pasta padrao do NextJS, onde contem todos arquivos de rotas para as paginas da aplicacao.
- Dentro da pasta `pages` encontra-se tambem a pasta `api` onde contem arquivos de API Routers.
+ A pasta [📦pages] e uma pasta padrão do NextJS, onde contem todos arquivos de rotas para as paginas da aplicação.
+ Dentro da pasta `pages` encontra-se também a pasta `api` onde contem arquivos de API Routers.
  
 📦pages<br/>
  ┣ 📂api<br/>
@@ -97,7 +97,7 @@ A pasta [📦styled] contem todos os arquivos de estilos globais.
   <br/>
   
  ### Dados
- A pasta [📦data] contem os arquivos json que sao usados para simular uma requisicao a uma API router.
+ A pasta [📦data] contem arquivos JSON que são usados para simular requisições.
  
  📦data<br/>
  ┗ 📜db.json<br/>
@@ -105,7 +105,7 @@ A pasta [📦styled] contem todos os arquivos de estilos globais.
   <br/>
   
  ### Configuracoes
- A pasta [📦configs] contem os arquivos json com algumas configuracoes padroes para a aplicacao.
+ A pasta [📦configs] contem os arquivos JSON com algumas configurações padrões para a aplicação.
  
  📦configs<br/>
  ┗ 📜config.json<br/>
@@ -113,7 +113,7 @@ A pasta [📦styled] contem todos os arquivos de estilos globais.
   <br/>
   
  ### Components
- A pasta [📦components] contem os components usados na aplicacao a aplicacao.
+ A pasta [📦components] contem os componentes usados na aplicação.
  
  📦components<br/>
  ┣ 📂data-display<br/>
