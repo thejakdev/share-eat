@@ -12,12 +12,14 @@ Primeiramente clone o repositorio utilizando o seguinte comando:
 git clone https://github.com/thejakdev/share-eat.git
 ```
 <br/>
-Em seguida entre na pasta **/share-eat**
+Em seguida entre na pasta /share-eat
+
 ```
 cd share-eat
 ```
 <br/>
 Digite o comando
+
 ```
 npm run build
 ```
@@ -27,7 +29,7 @@ E por fim digite o comando npm run dev para rodar o projeto em modo de desenvolv
 ```
 npm run dev
 ```
-<sub>Imporante! O NextJS utiliza da porta 3000 para rodar o projeto. antes de rodar o proximo comando, certifiquese que a porta 3000 esta livre.</sub>
+<sub>Imporante! O NextJS utiliza da porta 3000 para rodar o projeto. antes de rodar o npm run dev, certifique-se que a porta 3000 esta livre.</sub>
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
