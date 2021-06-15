@@ -5,6 +5,14 @@ Voce tambem pode cadastrar novos pratos.
 
 Veja a demo: [`Share-eat`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 
+### Design
+
+Adobe XD
+<img align="left" alt="Visual Studio Code" width="46px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png" />
+<br/>
+[`Mockup Mobile`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+[`Mockup Desktop`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+
 ## Rodando o Projeto
 
 Primeiramente clone o repositorio utilizando o seguinte comando:
@@ -31,25 +39,119 @@ npm run dev
 ```
 <sub>Imporante! O NextJS utiliza da porta 3000 para rodar o projeto. antes de rodar o npm run dev, certifique-se que a porta 3000 esta livre.</sub>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br/>
+<br/>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Tecnologias usadas
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+[`NextJS`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)<br/>
+[`Styled Components`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)<br/>
+[`Material UI`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)<br/>
+[`React Hook Form`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)<br/>
+[`Axios`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Visao geral da estrutura do projeto
+### Styled Components
+A pasta [📦styled] contem todos os arquivos de estilos globais.
 
-## Learn More
+📦styled<br/>
+ ┣ 📂1-base<br/>
+ ┃ ┣ 📜colors.js<br/>
+ ┃ ┣ 📜font-weight.js<br/>
+ ┃ ┣ 📜font.js<br/>
+ ┃ ┣ 📜global.js<br/>
+ ┃ ┣ 📜index.js<br/>
+ ┃ ┗ 📜mixins.js<br/>
+ ┣ 📂2-layout<br/>
+ ┣ 📂3-module<br/>
+ ┃ ┗ 📜place.js<br/>
+ ┣ 📂4-state<br/>
+ ┗ 📂5-theme<br/>
+ 
+ <br/>
+ 
+ ### Servicos
+ A pasta [📦services] contem todos os arquivos de chamadas a servicos de API.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+📦services<br/>
+ ┣ 📜Places.js<br/>
+ ┗ 📜Service.js<br/>
+ 
+ <br/>
+ 
+ ### Paginas
+ A pasta [📦pages] e uma pasta padrao do NextJS, onde contem todos arquivos de rotas para as paginas da aplicacao.
+ Dentro da pasta `pages` encontra-se tambem a pasta `api` onde contem arquivos de API Routers.
+ 
+📦pages<br/>
+ ┣ 📂api<br/>
+ ┃ ┗ 📂places<br/>
+ ┃ ┃ ┣ 📜index.js<br/>
+ ┃ ┃ ┗ 📜[placeId].js<br/>
+ ┣ 📂place<br/>
+ ┃ ┗ 📜[place].js<br/>
+ ┣ 📜index.js<br/>
+ ┣ 📜_app.js<br/>
+ ┗ 📜_document.js<br/>
+ 
+  <br/>
+  
+ ### Dados
+ A pasta [📦data] contem os arquivos json que sao usados para simular uma requisicao a uma API router.
+ 
+ 📦data<br/>
+ ┗ 📜db.json<br/>
+  
+  <br/>
+  
+ ### Configuracoes
+ A pasta [📦configs] contem os arquivos json com algumas configuracoes padroes para a aplicacao.
+ 
+ 📦configs<br/>
+ ┗ 📜config.json<br/>
+   
+  <br/>
+  
+ ### Components
+ A pasta [📦components] contem os components usados na aplicacao a aplicacao.
+ 
+ 📦components<br/>
+ ┣ 📂data-display<br/>
+ ┃ ┣ 📂Heading<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
+ ┃ ┗ 📂Typography<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
+ ┣ 📂feedback<br/>
+ ┃ ┗ 📂Dialog<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
+ ┣ 📂form<br/>
+ ┃ ┣ 📂button<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
+ ┃ ┣ 📂TextArea<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
+ ┃ ┗ 📂TextField<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
+ ┣ 📂layout<br/>
+ ┃ ┣ 📂Container<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
+ ┃ ┗ 📂Logo<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
+ ┣ 📂patterns<br/>
+ ┃ ┗ 📂Header<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
+ ┗ 📂ui<br/>
+ ┃ ┣ 📂Card<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
+ ┃ ┗ 📂CardList<br/>
+ ┃ ┃ ┣ 📜index.jsx<br/>
+ ┃ ┃ ┗ 📜styles.js<br/>
