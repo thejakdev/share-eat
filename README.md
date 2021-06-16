@@ -3,8 +3,6 @@ Visando melhorar a experiência do usuário, o Share eat permite ao usuário cad
 No Share eat, você pode ver os principais locais listados, pode ver a lista de pratos a venda de um local em especifico.
 Você também pode cadastrar novos pratos.
 
-Veja a demo: [`Share-eat`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
-
 ### Design
 
 Adobe XD
