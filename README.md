@@ -24,6 +24,13 @@ Em seguida entre na pasta `/share-eat`
 cd share-eat
 ```
 <br/>
+
+Digite o comando
+```
+npm install
+```
+
+<br/>
 Digite o comando
 
 ```
