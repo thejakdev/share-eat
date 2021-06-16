@@ -1,10 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-    *{
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-    }
 
     body {
     margin: 0;
