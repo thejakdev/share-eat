@@ -8,10 +8,10 @@ import React from "react";
 //===============================================================================================================
 import { Main, Title } from "./styles"
 
-export const Heading = ({ title, textAlign, fontSize, color }) => {
+export const Heading = ({ title, textAlign, fontSize, color, className }) => {
 
     return (
-        <Main>
+        <Main className={className}>
             <Title color={color ? color : "#FFFFFF"} textAlign={textAlign} fontSize={fontSize} >
                 {title}
             </Title>

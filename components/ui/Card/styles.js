@@ -59,9 +59,14 @@ export const Column = styled.div `
             display: flex;
             align-items: center;
             justify-content: space-between;
+
+            .price {
+                h1 {
+                    white-space: nowrap; 
+                }
+            }
         }
 
         &:nth-child(2) {
-            /* padding-top: 0; */
         }
 `;

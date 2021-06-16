@@ -139,7 +139,7 @@ function Place({ data, error }) {
                 <TextArea
                   append="R$"
                   label="Descrição do prato"
-                  placeholder="0,00"
+                  placeholder="Insira uma descrição"
                   type="text"
                   error={
                     errors.description && errors.description.type === "required" && ("Digite uma descrição.") ||

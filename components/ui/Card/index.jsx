@@ -28,7 +28,7 @@ export const Card = ({ title, price, text }) => {
             <Columns>
                 <Column>
                     <Heading title={title} color="#FFFFFF" textAlign="left" fontSize={matches ? "1.75rem" : "1rem"} fontWeight="400" />
-                    <Heading title={price} color="#FFFFFF" textAlign="left" fontSize={matches ? "1.5rem" : "1rem"} fontWeight="400" />
+                    <Heading title={price} color="#FFFFFF" textAlign="left" fontSize={matches ? "1.5rem" : "1rem"} fontWeight="400" className="price" />
                 </Column>
                 <Column>
                     <Paragraph color="#FFFFFF" textAlign="left" fontSize="0.9375rem">
